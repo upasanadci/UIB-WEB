@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #0e749e;
+}
+
+header {
+  background-image: url("../Images/header.jpg");
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card {
+  border: 2px solid #e0ddb2;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0ddb2;
+}
+
+.img-card {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url("../Images/mountain.jpg");
+}
+
+.img2 {
+  background-image: url("../Images/surfer.jpg");
+}
+
+.img3 {
+  background-image: url("../Images/tree.jpg");
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.aside1 {
+  border: 2px solid #e0ddb2;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+article {
+  padding: 10px;
+}
+
+footer {
+  background-color: #0e749e;
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 80%;
+  }
+  nav ul {
+    justify-content: flex-end;
+  }
+  main {
+    flex-flow: row nowrap;
+  }
+  main .aside1 {
+    width: 20%;
+  }
+  main article {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 45%;
+  }
+  .img-card {
+    width: 40%;
+  }
+} /*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
